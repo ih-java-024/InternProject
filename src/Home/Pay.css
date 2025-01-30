@@ -1,0 +1,30 @@
+.cd {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    transform: translate(-50%, -55%);
+    background: rgba(35, 131, 138, 0.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 20px;
+  }
+.wel {
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);  
+}
+.paybtn{
+    height: 45px;
+    width: 250px;
+    text-align: center;
+    font-family: c;
+    font-size: larger;
+    border-radius: 10px;
+}
+.cho{
+    font-size: large;
+}

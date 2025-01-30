@@ -1,0 +1,150 @@
+.p1{
+  color: white;
+  background-color: rgb(132, 0, 255);
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.wel{
+  display: flex;
+  justify-content: space-between;
+}
+.sticker {
+    display: flex;
+    border-radius: px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 5px;
+  }
+  
+  .sticker-image {
+    width: 150px;
+    height: auto;
+    fill: #ff9900; 
+  }
+  .welcome-message{
+    margin-left: 70px;
+    margin-top: 80px;;
+  }
+  .main{
+    width: min(80%,1100px);
+    background-color: #E8EEF3;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid #303030;
+  }
+  .block{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: flex-end;
+    width:100%;
+  }
+  .cad{
+    height: auto;
+    border-radius: 15px;
+    background-color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border: 1px solid #dadada;
+    width:100%;
+    transition:.1s linear;
+    margin-top:20px;
+
+  }
+  /* Custom CSS for table styling */
+
+.cad {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #fff; 
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; 
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .table {
+      font-size: 14px; 
+    }
+  }
+
+
+.offcanvas-header {
+    background-color: #a3c4e8; 
+    color: #fff; 
+  }
+  
+  .offcanvas-title {
+    color: #fff; 
+  }
+  
+  .offcanvas-body {
+    padding: 20px; 
+  }
+  
+  .text-muted {
+    color: #4d555c; 
+  }
+  
+  .text-primary {
+    color: #ceacf4; 
+    font-weight: bold; 
+  }
+ 
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+#profileBackground{
+  
+    /* background-image: url(../components/images/page-turner.png); */
+    background-size: cover;
+    height:auto;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.1);
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 100%;
+   }
+   #profilebanner{
+  
+    /* background-image: url(../components/images/sun-tornado.png); */
+    background-size: cover;
+    height:auto;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.1);
+   }
+
+.text-primary[contentEditable="true"]:focus {
+  outline: none;
+}

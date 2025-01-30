@@ -1,0 +1,163 @@
+.head1{
+    color: white;
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    border-radius: 30px;
+    font-weight: bold;
+}
+.range{
+    width: 85%;
+}
+.rangecard{
+    width: 320px;
+    border-radius: 12px;
+    align-content: center;
+    height: 180px;
+    font-weight: bolder;
+    background-image: linear-gradient(147deg, transparent 0%, transparent 8%,rgba(63, 106, 202,0.08) 8%, rgba(63, 106, 202,0.08) 46%,transparent 46%, transparent 100%),linear-gradient(107deg, transparent 0%, transparent 21%,rgba(63, 106, 202,0.08) 21%, rgba(63, 106, 202,0.08) 53%,transparent 53%, transparent 100%),linear-gradient(288deg, transparent 0%, transparent 35%,rgba(63, 106, 202,0.08) 35%, rgba(63, 106, 202,0.08) 91%,transparent 91%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+    border: 2px solid rgb(207, 205, 205);
+}
+.rangecard1{
+    width: 320px;
+    border-radius: 12px;
+    height: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(147deg, transparent 0%, transparent 8%,rgba(63, 106, 202,0.08) 8%, rgba(63, 106, 202,0.08) 46%,transparent 46%, transparent 100%),linear-gradient(107deg, transparent 0%, transparent 21%,rgba(63, 106, 202,0.08) 21%, rgba(63, 106, 202,0.08) 53%,transparent 53%, transparent 100%),linear-gradient(288deg, transparent 0%, transparent 35%,rgba(63, 106, 202,0.08) 35%, rgba(63, 106, 202,0.08) 91%,transparent 91%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+    border: 2px solid rgb(207, 205, 205);
+}
+.div{
+  font-family: c;
+}
+.plancard{
+    width:98%;
+    border-radius: 12px;
+    height: 320px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(147deg, transparent 0%, transparent 8%,rgba(63, 106, 202,0.08) 8%, rgba(63, 106, 202,0.08) 46%,transparent 46%, transparent 100%),linear-gradient(107deg, transparent 0%, transparent 21%,rgba(63, 106, 202,0.08) 21%, rgba(63, 106, 202,0.08) 53%,transparent 53%, transparent 100%),linear-gradient(288deg, transparent 0%, transparent 35%,rgba(63, 106, 202,0.08) 35%, rgba(63, 106, 202,0.08) 91%,transparent 91%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+    border: 2px solid rgb(207, 205, 205);
+}
+.plan{
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+.year{
+    display: flex;
+    justify-content: space-around;
+}
+.val{
+    justify-content: space-around;
+}
+
+.year1{
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 10%;
+}
+.pre1{
+    font-size: medium;
+    font-family: sans-serif;
+    margin-top: -33%;
+    margin-left: 70%;
+}
+.bt2{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+}
+.bt3{
+    margin-left: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color:orange;
+}
+/* --------------------------------------------- */
+/* review.css */
+.bp{
+display: flex;
+justify-content: space-between;
+font-family: c;
+}
+.che{
+    background-color: rgb(255, 191, 0);
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    font-family: c;
+}
+.details-container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .details-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .customer-details, .premium-details, .plan-details {
+    background-color: #e8f4fc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .customer-details h3, .premium-details h3, .plan-details h3 {
+    background-color: #005b99;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 10px -10px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .premium-details {
+    background-color: #ffefcc;
+  }
+  
+  .submit-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    height: 40px;
+    width: 35%;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 30%;
+  }
+  
+  .submit-button:hover {
+    background-color: darkgreen;
+  }
+  
+
+  @media (min-width: 600px) {
+    .customer-details, .premium-details {
+      width: 48%;
+      margin-bottom: 0;
+    }
+  }
+  
